@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>混雑度メータ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-1.12.4.min.js"></script>
+  <script src="EditorSrc.js"></script>
+</head>
+
+<body>
+<div id="content">
+  <div id="title1">サンプル</div><div id="title1-5">サンプル　タイトル</div>
+
+  <div id="title2">混雑度</div>
+  <div id="box">
+    <span id="konzatu"></span>
+    <span class="tani">%</span>
+    <span class="opt01">（</span>
+    <span id="ninzu"></span>
+    <span class="opt02">/</span>
+    <span id="max"></span>
+    <span class="opt03">人）</span>
+  </div>
+  <div id=at>現在感染症対策のため、人数制限を設けております</div>
+  
+  <div id="buttonitem">
+    <span id="button_box">
+      <button  type="button" class="calbutton" id="plus">+</button>
+      <button  type="button" class="calbutton" id="minus">-</button>
+      <button  type="button" class="calbutton" id="clear">C</button>
+    </span>
+  </div>
+  
+</div>
+</body>
+</html>

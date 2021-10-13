@@ -1,0 +1,106 @@
+body{
+  background-color: rgb(13, 19, 25);
+}
+#title1 {
+  text-align: center;
+  font-size: 40pt;
+  color: rgb(15, 143, 219);
+}
+#title1-5 {
+  text-align: center;
+  font-size: 20pt;
+  background-color: rgb(13, 19, 25);
+  color: rgb(255, 255, 255);
+  margin-bottom: 50pt;
+}
+
+#title2 {
+  margin-top: 50pt;
+  text-align: center;
+  font-size: 25pt;
+  background: rgb(255, 255, 255);
+}
+#content {
+  text-align: center;
+}
+#box {
+
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+#konzatu {
+/*
+  border: 1px solid #000;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+*/
+  font-size: 60pt;
+}
+.tani {
+  font-size: 30pt;
+}
+.opt01 {
+  font-size: 30pt;
+}
+#ninzu {
+  font-size: 30pt;
+  }
+.opt02 {
+  font-size: 30pt;
+}
+#max {
+  font-size: 30pt;
+  }
+.opt03 {
+  font-size: 30pt;
+}
+#at {
+  margin-top: 100pt;
+  font-size: 20pt;
+  color: rgb(255, 255, 255);
+}
+
+.calbutton {
+  -webkit-appearance : none;
+  margin-top: 100px; 
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 0px; /*ボタン内文字レイアウト調整*/
+  background: #fff;
+  font-size: 20pt;
+}
+
+#num_box {
+  margin: 10px;
+  background: #faa;
+}
+
+#buttonitem {
+ /* padding: 10px;
+  background: #aaf;*/
+  text-align: center;
+}
+#button_box {
+  padding: 0px;
+  /*  background: #aaf;*/
+   vertical-align: middle;
+   text-align: center;
+ }
+.plus {
+  text-align: center;
+}
+.minus {
+  text-align: center;
+}
+.clearS {
+  text-align: center;
+}
+
+#num1, #num2 {
+  width: 60px;
+}
